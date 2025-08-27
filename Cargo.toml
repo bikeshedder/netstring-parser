@@ -1,0 +1,14 @@
+[package]
+name = "netstring-parser"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.65"
+authors = ["Michael P. Jung <michael.jung@terreon.de>"]
+description = "A simple, zero-copy netstring parser for Rust, designed for incremental parsing of streaming data with minimal allocations."
+keywords = ["netstring", "parser", "zero-copy"]
+license = "MIT or Apache-2.0"
+repository = "https://github.com/bikeshedder/netstring-parser"
+readme = "README.md"
+
+[dependencies]
+thiserror = "2.0.16"
